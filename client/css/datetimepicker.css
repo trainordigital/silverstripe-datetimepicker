@@ -1,0 +1,134 @@
+.pika-table th {
+  text-transform: none;
+  font-weight: normal;
+  color: #333;
+}
+
+.pika-table abbr {
+  cursor: inherit;
+  text-decoration: none;
+}
+
+.pika-button {
+  text-align: center;
+  padding: 7px;
+  font-size: 13px;
+}
+
+.is-selected .pika-button,
+.has-event .pika-button {
+  background: #005a93;
+  box-shadow: none;
+  border-radius: 0;
+}
+
+.pika-button:hover,
+.pika-row.pick-whole-week:hover .pika-button {
+  background: #005a93;
+  border-radius: 0;
+}
+
+.datetimepicker-field-wrapper {
+  position: relative;
+}
+
+.datetimepicker-clear {
+  background: url(../images/clear.png);
+  background-size: cover;
+  border: none;
+  display: block;
+  text-indent: -999em;
+  padding: 0;
+  width: 14px;
+  height: 14px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  cursor: pointer;
+  outline: 0 !important;
+  opacity: 0;
+}
+
+.datetimepicker-field-wrapper-date .datetimepicker-clear {
+  left: 112px;
+}
+
+.datetimepicker-field-wrapper-time .datetimepicker-clear {
+  left: 112px;
+}
+
+.datetimepicker-field-wrapper-date input[type=text][readonly] {
+  background-color: white;
+}
+
+.datetimepicker-field-wrapper input[type=text]:hover + .datetimepicker-clear {
+  opacity: 0.3;
+}
+
+.datetimepicker-clear:hover {
+  opacity: 0.6;
+}
+
+.field input.text.datetimepicker-date-field {
+  width: 136px;
+}
+
+.form-group.daterangepicker .form__field-holder,
+.form-group.datetimerangepicker .form__field-holder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.form-group.daterangepicker .form__field-holder .field,
+.form-group.datetimerangepicker .form__field-holder .field {
+  margin-bottom: 0;
+}
+
+.form-group.daterangepicker .daterangepicker-separator,
+.form-group.datetimerangepicker .daterangepicker-separator {
+  margin-left: -20px;
+  margin-right: 20px;
+}
+
+.form-group.daterangepicker span.readonly {
+  min-width: 150px;
+}
+
+.field input[data-date] {
+  width: 136px;
+}
+
+.field input[data-time] {
+  width: 136px;
+}
+
+.form-group.datetime .form__field-holder {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.form-group.datetime .datetimepicker-field-wrapper-date {
+  margin-right: 10px;
+}
+
+.form-group.datetimerangepicker .form__field-holder.end {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.form-group.datetimerangepicker .form__field-holder.end .datetimepicker-field-wrapper-date {
+  -webkit-box-ordinal-group: 3;
+  -ms-flex-order: 2;
+  order: 2;
+  margin-left: 10px;
+  margin-right: 0;
+}

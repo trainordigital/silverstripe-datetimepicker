@@ -1,0 +1,33 @@
+{
+    "name": "trainordigital/datetimepicker",
+    "type": "silverstripe-vendormodule",
+    "description": "Date and time picker widgets for SilverStripe CMS fields",
+    "keywords": [
+        "silverstripe",
+        "dates",
+        "times",
+        "datetime",
+        "datepicker",
+        "timepicker"
+    ],
+    "authors": [
+        {
+            "name": "Brandon Iffert"
+        }
+    ],
+    "require": {
+        "silverstripe/vendor-plugin": "^1.0",
+        "silverstripe/framework": "^4.0"
+    },
+    "extra": {
+        "expose": [
+            "client"
+        ]
+    },
+    "autoload": {
+        "psr-4": {
+          "Trainor\\DateTimePicker\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
